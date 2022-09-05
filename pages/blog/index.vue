@@ -24,9 +24,15 @@
     <div class="container">
       <div class="row">
         <h1>Lista de entradas</h1>
-        <NuxtLink class="nav-link" to="/blog/hello">
+        <ul>
+          <li>
+            <NuxtLink class="nav-link" to="/blog/hello">
                 Primera entrada
               </NuxtLink>
+          </li>
+            
+        </ul>
+        
       </div>
     </div>
       
