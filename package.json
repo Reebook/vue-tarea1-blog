@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build": "node_modules/nuxt/bin/nuxt.js build -c ./nuxt.config.js",
-    "start": "node_modules/nuxt/bin/nuxt.js start -c ./nuxt.config.js",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "dev": "node_modules/.bin/nuxt",
+    "build": "node_modules/.bin/nuxt build",
+    "start": "node_modules/.bin/nuxt start",
+     "generate": "node_modules/.bin/nuxt generate",
+    "preview": "node_modules/.bin/nuxt preview"
   },
   "devDependencies": {
     "nuxt": "npm:nuxt3@^3.0.0-rc.8-27692155.9db2229",
