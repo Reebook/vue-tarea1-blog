@@ -3,6 +3,7 @@
     createdAt: 2022-09-01
 ---
 
-# My first blog post
+# Azure Functions
 
-Welcome to my first blog post using content module
+¿Qué es una función en Azure?
+
