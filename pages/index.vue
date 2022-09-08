@@ -24,7 +24,9 @@
 <div class="container">
   <div class="row">
     <h1>Sitio</h1>
+    <p>En este sitio se va escribir de programación. Iniciamos con nuestra primera entrega de Funciones en Azure</p>
     <li v-for="article of articles" :key="article.slug">
+      
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
           <div>
             <h2>{{ article.title }}</h2>

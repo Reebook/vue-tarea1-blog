@@ -26,8 +26,23 @@
         <h1>Lista de entradas</h1>
         <ul>
           <li>
-            <NuxtLink class="nav-link" to="/blog/hello">
-                Primera entrada
+            <NuxtLink class="nav-link" to="/blog/que_es_una_funcion_azure">
+              ¿Qué es una función en Azure?
+              </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="nav-link" to="/blog/casos_de_uso">
+              Casos de uso
+              </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="nav-link" to="/blog/que_no_hacer_con_funciones">
+              ¿Qué no se debe hacer en Azure Functions?
+              </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="nav-link" to="/blog/que_ofrece_nube_azure">
+              ¿Qué ofrece la nube de Azure?
               </NuxtLink>
           </li>
             
